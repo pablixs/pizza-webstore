@@ -226,7 +226,7 @@ header {
     align-items: center;
     justify-content: center;
     background-color: var(--main-color);
-    background: linear-gradient(180deg, rgba(255, 84, 15, .55) 0%, rgba(255, 84, 15, 1) 80%), url(/img/bg.jpg) no-repeat;
+    background: linear-gradient(180deg, rgba(255, 84, 15, .55) 0%, rgba(255, 84, 15, 1) 80%), url(./img/bg.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     z-index: 20;
