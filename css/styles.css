@@ -1,3 +1,9 @@
+html {
+    overflow-x: hidden !important;
+}
+
+
+
 * {
     font-family: 'Work Sans', sans-serif;
     box-sizing: border-box;
@@ -533,12 +539,12 @@ ul>li,
     margin: 0;
     box-shadow: 0 0 5px 1px rgba(0, 0, 0, .3);
     cursor: pointer;
-    transition: outline .3s ease-in-out , box-shadow .3s ease-in-out;
+    transition: outline .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
 .catalogo-grid__container>li:hover {
     outline: 1px solid rgb(255, 84, 15);
-    box-shadow: 0 0 5px 1px rgba(255, 84, 15,.7);
+    box-shadow: 0 0 5px 1px rgba(255, 84, 15, .7);
 }
 
 
@@ -578,12 +584,22 @@ ul>li,
 }
 
 
+.hide-box > ol > li, .hide-box > ol > li > a {
+    list-style: none;
+    font-size: 1.1em;
+    color: black;
+}  
+
+.color-white {
+    color: var(--light-color)
+}
+
+.list-box {
+    color: black;
+}
 
 
-
-
-
-/** footer **/ 
+/** footer **/
 
 footer {
     height: 250px;
@@ -594,3 +610,35 @@ footer {
 
 
 /****** jscript styles ******/
+
+@media (max-width: 1200px) {
+    .btn-nav {
+        display: none;
+    }
+
+    .mid-side {
+        width: 300%;
+    }
+
+    .nav-search {
+        width: 100%;
+    }
+
+    .fa-location-dot {
+        display: none;
+    }
+
+    main {
+        width: 95%;
+    }
+
+    .contact-card__left-side {
+        width: 35%;
+        font-size: .8em;
+    }
+
+    .contact-card__right-side {
+        width: 100%;
+        font-size: .8em;
+    }
+}

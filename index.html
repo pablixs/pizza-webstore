@@ -20,37 +20,37 @@
 <body>
 
     <div class="hide-box" id="hide-box">
-        <ol>
-            <li>Inicio</li>
-            <li>Contacto</li>
-            <li>Catálogo</li>
-            <li>Sobre nosotros</li>
+        <ol id="list-box">
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#contact">Contacto</a></li>
+            <li><a href="#recommended">Recomendaciones</a></li>
+            <li><a href="#catalogue">Catálogo</a></li>
         </ol>
     </div>
     <nav class="nav-box" id="nav-box">
         <div class="left-side" id="left-side">
             <i class="fa-solid fa-bars btn-nav-bar" id="bar-btn"></i>
-            <a href="#" class="btn-nav">Inicio</a>
-            <a href="#" class="btn-nav">Contacto</a>
+            <a href="#home" class="btn-nav">Inicio</a>
+            <a href="#contact" class="btn-nav">Contacto</a>
         </div>
         <div class="mid-side" id="mid-side">
             <i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
             <input type="search" class="nav-search" id="nav-search">
         </div>
         <div class="right-side">
-            <a href="#" class="btn-nav">Sobre nosotros</a>
-            <a href="#" class="btn-nav">Catálogo</a>
+            <a href="#catalogue" class="btn-nav">Catálogo</a>
+            <a href="#recommended" class="btn-nav">Recomendaciones</a>
         </div>
     </nav>
 
-    <header>
+    <header id="home">
         <h1 class="main-title">Pizzería Bouvier <i class="fa-solid fa-pizza-slice"></i></h1>
         <p>Lorem, ipsum lolor sit amet consectetur adipisicing elit. &#128521;</p>
     </header>
 
     <main>
 
-        <div class="contact-box">
+        <div class="contact-box" id="contact">
             <div class="title">
                 <h2>Información de contacto</h2>
             </div>
@@ -86,7 +86,7 @@
             </div>
         </div>
 
-        <div class="nuestras-pizzas">
+        <div class="nuestras-pizzas" id="recommended">
             <div class="title second-margin">
                 <h2>El menú recomendado</h2>
             </div>
@@ -143,7 +143,7 @@
         </div>
 
 
-        <div class="catalogo">
+        <div class="catalogo" id="catalogue">
             <div class="title second-margin">
                 <h2>Catálogo</h2>
             </div>
