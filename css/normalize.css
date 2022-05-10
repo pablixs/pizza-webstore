@@ -8,9 +8,6 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
- html {
-   overflow-x: hidden !important;
- }
 
  p {
   margin: 0;

@@ -13,7 +13,6 @@ window.addEventListener("scroll", function () {
     let bar = document.getElementById('bar-btn')
     let searchIcon = document.getElementById('search-icon')
     let search = document.getElementById('nav-search')
-    let letters = document.querySelectorAll('#list-box')
     if (window.scrollY > (headerObj.offsetTop + headerObj.offsetHeight)) {
         for (var i = 0; i < btn.length; i++) {
             btn[i].classList.add('btn-nav-color');
